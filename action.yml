@@ -1,0 +1,17 @@
+name: 'Github triage project'
+description: 'build a triage board to convert reported issues and assign to project'
+inputs:
+  token: 
+    description: 'github API token'
+    required: true
+  triage-project:  
+    description: 'triage project name'
+    required: true
+    default: 'Triage'
+  backlog-column:  
+    description: 'backlog column name'
+    required: true
+    default: 'Backlog'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'

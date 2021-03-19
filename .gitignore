@@ -1,0 +1,31 @@
+*.pyc
+*.pyo
+*.swp
+*.swo
+*.csv
+*.tags
+*.log
+*.log.*
+.DS_Store
+node_modules/
+/shared
+package-lock.json
+yarn.lock
+.link
+venv/
+__pycache__/
+
+# styleguide
+/styleguide/out
+/styleguide/styles/styles.css
+
+# email templates
+/email-templates/out
+/email-templates/venv
+
+# credential overrides for link
+override_credentials.sh
+.env
+
+# assets
+/assets/build/out

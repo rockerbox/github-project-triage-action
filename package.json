@@ -1,0 +1,23 @@
+{
+  "name": "github-triage-action",
+  "version": "1.0.0",
+  "description": "Updates reported task based on column specification on triage board",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "ncc build index.js -o dist --source-map --license licenses.txt",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@actions/core": "^1.1.0",
+    "@actions/github": "^1.1.0"
+  },
+  "devDependencies": {
+    "@vercel/ncc": "^0.27.0",
+    "eslint": "^7.4.0",
+    "jest": "^26.6.3"
+  }
+}
+
